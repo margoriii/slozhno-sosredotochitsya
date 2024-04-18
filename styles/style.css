@@ -335,7 +335,7 @@ a:focus-visible {
     grid-column: 1 / 2;
   }
 
-  .what  .content__container:nth-last-of-type(2) {
+  .what .content__container:nth-last-of-type(2) {
     grid-column: 2 / 3;
   }
 
@@ -360,10 +360,11 @@ a:focus-visible {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 95.7px;
   text-align: left;
-  text-shadow: 2px 2px 0 #ff0070; */
+  text-shadow: 2px 2px 0 #ff0070;
 }
 
 @media (width >= 768px) {
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
+}
