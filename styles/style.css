@@ -109,6 +109,15 @@ button:focus {
   text-shadow: 4px 4px 0 #ff0070;
 }
 
+.header__paragraph {
+  justify-self: end;
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  inline-size: 100%;
+}
+
 @media (width >= 768px) {
   .header__title {
     margin-inline-start: calc(-1 * var(--main-gap));
@@ -118,15 +127,6 @@ button:focus {
   .header__paragraph {
     inline-size: 50%;
   }
-}
-
-.header__paragraph {
-  justify-self: end;
-  font-family: var(--font);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 23.4px;
-  inline-size: 100%;
 }
 
 .decorated-zone {
@@ -272,20 +272,25 @@ a:focus-visible {
     gap: var(--main-gap);
   }
 
-  .section-one .content__container {
+  .why .content__container {
     grid-column: 2 / -1;
   }
 
-  .section-two .content__container {
+  .what .content__container {
     grid-column: 1 / -1;
     grid-row: 2 span;
   }
 
-  .section-three .content__container {
+  .how .content__title {
+    grid-column: 2 / -1;
+    block-size: 23px;
+  }
+
+  .how .content__container {
     grid-column: 2 / -1;
   }
 
-  .section-four .content__title {
+  .images .content__title {
     grid-column: 1 / -1;
   }
 
@@ -322,19 +327,19 @@ a:focus-visible {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .section-two .content__container {
+  .what .content__container {
     grid-template-rows: 23px 1fr;
   }
 
-  .section-two .content__container:first-of-type {
+  .what .content__container:first-of-type {
     grid-column: 1 / 2;
   }
 
-  .section-two .content__container:nth-last-of-type(2) {
+  .what  .content__container:nth-last-of-type(2) {
     grid-column: 2 / 3;
   }
 
-  .section-two .content__container:last-of-type {
+  .what .content__container:last-of-type {
     grid-column: 3 / 4;
   }
 }
@@ -347,6 +352,18 @@ a:focus-visible {
   block-size: 100vh;
 }
 
-.footer > .header__title {
-  text-shadow: 2px 2px 0 #ff0070;
+.footer__title {
+  align-items: center;
+  color: var(--title-color);
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 95.7px;
+  text-align: left;
+  text-shadow: 2px 2px 0 #ff0070; */
 }
+
+@media (width >= 768px) {
+  .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
