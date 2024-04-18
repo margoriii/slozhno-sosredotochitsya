@@ -15,7 +15,7 @@
 
 /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 .page {
-  font-family: var(--font);
+  font-family: var(--font), sans-serif;
   font-size: 18px;
   background-color: var(--bg-color);
   min-inline-size: 375px;
@@ -44,7 +44,7 @@
   justify-content: center;
   align-items: end;
   gap: 12px;
-  font-family: var(--font);
+  font-family: var(--font), sans-serif;
 }
 
 @media (width >= 1024px) {
@@ -65,7 +65,7 @@
   border: none;
   padding: 1.5px 13px 4.5px;
   color: var(--details-color);
-  font-family: var(--font);
+  font-family: var(--font), sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 18px;
@@ -101,7 +101,7 @@ button:focus {
 .header__title {
   align-items: center;
   color: var(--title-color);
-  font-family: var(--font);
+  font-family: var(--font), sans-serif;
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 95.7px;
@@ -111,7 +111,7 @@ button:focus {
 
 .header__paragraph {
   justify-self: end;
-  font-family: var(--font);
+  font-family: var(--font), sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -138,7 +138,7 @@ button:focus {
   display: inline-block;
   margin-inline-end: 28px;
   color: var(--accent-color);
-  font-family: var(--font);
+  font-family: var(--font), sans-serif;
   font-size: 18px;
   line-height: 25px;
   inline-size: 33px;
@@ -198,7 +198,7 @@ main {
   margin-block-start: calc(4 * var(--small-gap));
   padding: 0 var(--padding);
   color: var(--text-color);
-  font-family: var(--font);
+  font-family: var(--font), sans-serif;
   line-height: 23.4px;
 }
 
@@ -214,7 +214,7 @@ main {
 .content__question,
 .content__title {
   color: var(--details-color);
-  font-family: var(--font);
+  font-family: var(--font), sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -355,7 +355,7 @@ a:focus-visible {
 .footer__title {
   align-items: center;
   color: var(--title-color);
-  font-family: var(--font);
+  font-family: var(--font), sans-serif;
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 95.7px;
