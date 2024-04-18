@@ -38,7 +38,7 @@
         --small-gap: 10px;
         --section-gap: 50px;
         --hover-button-color: rgb(50, 49, 45, .4);
-    } 
+      } 
 }
 
 @media (width >= 768px) {
